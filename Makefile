@@ -1,5 +1,5 @@
 CC		= cc
-CFLAGS	= -Wall -Wextra -Werror -pthread -I. -g
+CFLAGS	= -Wall -Wextra -Werror -pthread
 SRCS	= philo.c philo_utils_1.c philo_utils_2.c philo_utils_3.c
 OBJS	= $(SRCS:.c=.o)
 RM		= rm -f
